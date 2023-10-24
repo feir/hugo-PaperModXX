@@ -1,17 +1,21 @@
 :root {
   --link-color: var(--primary);
-  --link-hover-color: #d44375;
+  --link-hover-color: rgb(255, 64, 136);
   --link-underline-shadow: 0 1px 0 var(--link-color);
-  --link-hover-underline-color: #d44375;
+  --link-hover-underline-color: rgb(255, 64, 136);
   --link-hover-underline-shadow: 0 2px 0 var(--link-hover-underline-color);
 }
 
-/*#menu .active {
-color: rgb(155, 156, 157);
-}*/
+#menu .active {
+color: rgb(255, 64, 136);
+}
 
 .post-content {
     font-size: 15px;
+}
+
+.post-content a {
+color: rgb(255, 64, 136);
 }
 .post-title {
     font-size: 30px;
