@@ -6,6 +6,10 @@
   --link-hover-underline-shadow: 0 2px 0 var(--link-hover-underline-color);
 }
 
+.dark {
+--link-hover-color: rgb(255, 64, 136);
+}
+
 #menu .active {
 color: rgb(255, 64, 136);
 }
