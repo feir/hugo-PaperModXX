@@ -9,8 +9,11 @@
     --radius: 8px;
     --monospace: "Lucida Console", Monaco, "Consolas", monospace;
 
-    --theme: rgb(255, 255, 255);
-    --entry: rgb(255, 255, 255);
+/*    --theme: rgb(255, 255, 255);*/
+/*    --entry: rgb(255, 255, 255);*/
+    --theme: #FFFCF0;
+    --entry: #FFFCF0;
+/*    --primary: #FFFCF0;*/
     --primary: rgb(30, 30, 30);
     --primary-dim: rgb(60, 60, 60);
     --secondary: rgb(108, 108, 108);
@@ -18,6 +21,7 @@
     --tertiary-bg: rgb(214, 214, 214);
     --content: rgb(31, 31, 31);
     --code-bg: rgb(245, 245, 245);
+    --code-bg: #FFFCF0;
     --border: rgb(238, 238, 238);
     --link-background-color: #e8e3f7;
     --link-color: none;
