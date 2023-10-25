@@ -68,6 +68,8 @@ function toggleThemeListener() {
 </script>
 
 <header class="header">
+    {{- if (not .IsHome) }}
+
     <nav class="nav">
         <div class="logo">
             {{- $label_text := (site.Params.logo.text | default site.Title) }}
@@ -142,6 +144,7 @@ function toggleThemeListener() {
                     {{- if .Params.External }}<span class="external-link">{{ safeHTML (index $.Site.Data.svg "external-link") }}</span>{{- end }}
                 </a>
             </li>
+            {{- end }}
             {{- end }}
         </ul>
     </nav>
