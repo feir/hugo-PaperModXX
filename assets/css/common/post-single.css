@@ -240,7 +240,8 @@ h6:hover .anchor {
 /* TODO refactor this shit */
 .post-content code {
     /* inline code */
-    background-color: var(--code-bg);
+/*    background-color: var(--code-bg);*/
+    background-color: hsl(205,47%,97%);
     margin: 0 3px;
     padding: 4px 5px;
     border-radius: 3px;
