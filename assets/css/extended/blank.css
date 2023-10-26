@@ -6,4 +6,30 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 .dark .post-content code {
 background-color: rgb(46, 46, 51);
 }
-
+.dark .box-shortcode {
+color: rgb(196, 196, 197);
+}
+#menu .active, .post-content a {
+color: rgb(255, 64, 136);
+}
+.post-content {
+    font-size: 15px;
+}
+.post-title {
+    font-size: 30px;
+}
+.post-content h1 {
+    font-size: 30px;
+}
+.post-content h2 {
+    font-size: 24px;
+}
+.post-content h3 {
+    font-size: 18px;
+}
+.post-content h4 {
+    font-size: 12px;
+}
+.post-content h5 {
+    font-size: 6px;
+}
