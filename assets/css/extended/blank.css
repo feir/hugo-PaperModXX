@@ -33,3 +33,9 @@ color: rgb(255, 64, 136);
 .post-content h5 {
     font-size: 6px;
 }
+
+/* 取消footnote的hr分隔線 */
+.footnotes hr {
+    display: none;
+}
+/* 取消footnote的hr分隔線 */
