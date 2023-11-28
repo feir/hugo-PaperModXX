@@ -40,4 +40,8 @@ color: rgb(255, 64, 136);
 }
 /* 取消footnote的hr分隔線 */
 
+.post-description {
+    padding-left: 0;
+    border-left: none;
+}
 
