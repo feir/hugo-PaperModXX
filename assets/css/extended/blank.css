@@ -3,6 +3,47 @@ This is just a placeholder blank stylesheet so as to support adding custom style
 
 Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
 */
+:root {
+    --theme: #f6f5f0;
+    --entry: #f6f5f0;
+    --code-bg: #f6f5f0;
+}
+
+/*@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'iAWriterDuoS';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/iAWriterDuoS-Regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('/fonts/iAWriterDuoS-Regular.eot?#iefix') format("embedded-opentype"),
+    url('/fonts/iAWriterDuoS-Regular.woff') format("woff"),
+    url('/fonts/iAWriterDuoS-Regular.ttf') format("truetype");
+}*/
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("/fonts/JetBrainsMono-Regular.eot");
+    src: url("/fonts/JetBrainsMono-Regular.eot?#iefix") format("embedded-opentype"),
+        url("/fonts/JetBrainsMono-Regular.woff2") format("woff2"),
+        url("/fonts/JetBrainsMono-Regular.woff") format("woff"),
+        url("/fonts/JetBrainsMono-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+/*  font-family: 'iAWriterDuoS';*/
+  font-family: Roboto,Helvetica,Tahoma,Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK","WenQuanYi Micro Hei",sans-serif;
+}
+
+.code {
+    font-family: "JetBrains Mono", monospace;
+}
+.post-content .highlight {
+    font-size: 13px;
+}
+.post-content code {
+background-color: #f0e5ff;
+}
 .dark .post-content code {
 background-color: rgb(46, 46, 51);
 }
@@ -45,3 +86,24 @@ color: rgb(255, 64, 136);
     border-left: none;
 }
 
+
+:is(h2) {
+display: flex;
+/*font-weight: 700;*/
+gap: 1ch;
+line-height: 1.2;
+}
+
+h2:before {
+content: "##";
+margin-inline-start: -2ch;
+}
+
+/*h3:before {
+content: "###";
+margin-inline-start: -2ch;
+}*/
+
+:is(h1,h2,h3):before {
+color: #666;
+}
