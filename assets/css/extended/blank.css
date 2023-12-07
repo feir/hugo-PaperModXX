@@ -85,25 +85,3 @@ color: rgb(255, 64, 136);
     padding-left: 0;
     border-left: none;
 }
-
-
-:is(h2) {
-display: flex;
-/*font-weight: 700;*/
-gap: 1ch;
-line-height: 1.2;
-}
-
-h2:before {
-content: "##";
-margin-inline-start: -2ch;
-}
-
-/*h3:before {
-content: "###";
-margin-inline-start: -2ch;
-}*/
-
-:is(h1,h2,h3):before {
-color: #666;
-}
